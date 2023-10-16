@@ -17,7 +17,7 @@
         var gravity=1
         function create(){
             var new_img=document.createElement("img")
-            new_img.src="./image/PacMan2.png"
+            new_img.src="image/PacMan2.png"
             var xpos=Math.random()*500
             var ypos=Math.random()*500
             var xvel=Math.floor(Math.random()*20)
@@ -60,16 +60,16 @@
                     pacman[i].src="./image/PacMan2.png"
                     }
                     else{
-                        pacman[i].src="./image/PacMan1.png"
+                        pacman[i].src="image/PacMan1.png"
                     }
 
                     }
                     else {
                         if(Math.floor(X_pos[i]/x_vel[i])%2!==0){
-                            pacman[i].src="./image/PacMan3.png"
+                            pacman[i].src="image/PacMan3.png"
                         }
                         else{
-                            pacman[i].src="./image/PacMan2.png"
+                            pacman[i].src="image/PacMan2.png"
                         
                     }
                 }
